@@ -1,7 +1,31 @@
-1. ¿Dónde existe un problema relacionado con el sonido?
-2. ¿En qué lugares sería útil detectar o analizar sonidos automáticamente?
-3. ¿Qué sonidos pueden indicar que algo está ocurriendo?
-4. ¿Hay situaciones donde una persona tenga que escuchar constantemente para detectar algo?
-5. ¿Qué sonidos son difíciles de identificar para una persona?
-6. ¿Hay ambientes donde exista demasiado ruido y sea difícil distinguir determinados sonidos?
-7. ¿Qué situación existe donde una persona actualmente tenga que escuchar, interpretar o monitorear un sonido, y podamos automatizar esa tarea capturando y procesando la señal de un micrófono?
+1.¿Con que fin queremos captarla?
+
+	El objetivo principal del profesor es enseñar a muestrear señales utilizando el teorema de muestre de Nyskui.	
+
+	Nota: Que se pueda utilizar osciloscopio.
+
+2.¿Que señal queremos captar?
+
+	1. Sonido (mediante micrófono) 
+	2. Señal generada por un instrumento.	
+
+3.¿Que queremos hacer con esa señal?
+
+	- Aplicar filtros digitales
+	- Análisis FFT
+	- Amplificación y ecualización digital. 
+	- Necesitamos un punto de salida para osciloscopio
+	- Un punto de salida con Bocina
+	- Almacenamiento con SD
+
+4.¿En que ambiente quieres captar esa señal?
+
+	- En el aula y laboratorios.
+
+5.¿Necesitas captar mas de un tipo de señal?
+	
+	Se respondió sola. 
+
+6.¿Que tan exacta y precisa debe de ser la captura de la señal?
+
+	- Experimental (posibilidad de utilizar ADC externo)

@@ -1,0 +1,7 @@
+1. ¿Dónde existe un problema relacionado con el sonido?
+2. ¿En qué lugares sería útil detectar o analizar sonidos automáticamente?
+3. ¿Qué sonidos pueden indicar que algo está ocurriendo?
+4. ¿Hay situaciones donde una persona tenga que escuchar constantemente para detectar algo?
+5. ¿Qué sonidos son difíciles de identificar para una persona?
+6. ¿Hay ambientes donde exista demasiado ruido y sea difícil distinguir determinados sonidos?
+7. ¿Qué situación existe donde una persona actualmente tenga que escuchar, interpretar o monitorear un sonido, y podamos automatizar esa tarea capturando y procesando la señal de un micrófono?

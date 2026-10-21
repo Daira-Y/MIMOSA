@@ -29,3 +29,31 @@
 6.¿Que tan exacta y precisa debe de ser la captura de la señal?
 
 	- Experimental (posibilidad de utilizar ADC externo)
+
+
+
+
+
+1. Definir el micrófono.
+2. Cuáles son las funciones matemáticas para analizar las señales?
+3. ESP32S3 es el micro ha utilizar en el proyecto.
+4. En la pantalla de la placa debe salir la grafica FFT.
+5. El PCB tendrá la forma de un micrófono. Este a su vez debe tener su serigrafia.
+6. Imprimir en 3D unos soportes para para agarrar la placa.
+7. Colocar una pantalla para mostrar la grafica de la curva de la frecuencia.
+8. El dispositivo necesitara un cargador y una batería de 3.7 V. (seleccionar chip de carga)
+9. Usar regulador LDO. (TLV771, LDL1117*) 
+
+
+Micrófono: 
+Analógico
+20 Hz a 20 kHz
+Idealmente ≥ 60 dB (SNR)
+
+
+
+Preguntas: 
+
+1. Coloca amplificador o solo un Jack?
+2. 
+

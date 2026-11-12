@@ -665,7 +665,7 @@
         "uuid": "10431354-d2ae-41f8-96e7-b05ea5f37a8c"
       }
     ],
-    "used_designators": "#PWR4-51,C5-15,C36-37,D1-5,En2,J1-2,Q1,R1-11,Rprog1,SW1,U5-11,USB1,USBC1,boot2",
+    "used_designators": "#PWR4-69,Battery1,C5-31,C36-38,D1-5,Display_OLED1,En2,J1-2,Q1,R1-14,Rprog1,SW1,TP1-4,U5-11,USB1,USBC1,boot2",
     "variants": []
   },
   "sheets": [

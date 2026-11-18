@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.2,
+          "height": 4.4,
+          "width": 4.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -518,8 +521,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -662,7 +665,7 @@
         "uuid": "10431354-d2ae-41f8-96e7-b05ea5f37a8c"
       }
     ],
-    "used_designators": "U14,#PWR76",
+    "used_designators": "#PWR39,#PWR68-69,#PWR76-98,Battery1,C11-13,C30,C38-43,Card1,D6-10,DOWN1,Display_TFT_1.8\"1,ENTER1,En3,J1,LEFT1,Lector_Señales1,R16-30,RIGHT1,U14,UART1,UP1",
     "variants": []
   },
   "sheets": [

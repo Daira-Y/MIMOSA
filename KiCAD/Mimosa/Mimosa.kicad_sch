@@ -509,6 +509,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x08_Socket"
 			(pin_names
 				(offset 1.016)
@@ -7915,7 +8098,7 @@
 	)
 	(rectangle
 		(start 314.96 121.92)
-		(end 377.19 180.34)
+		(end 397.51 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -7951,7 +8134,7 @@
 	)
 	(rectangle
 		(start 255.27 121.92)
-		(end 311.15 180.34)
+		(end 311.15 198.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -7997,6 +8180,26 @@
 			(justify left)
 		)
 		(uuid "18d427e3-05ea-4092-a216-2408d9106f4c")
+	)
+	(text "Amplificador para la bocina"
+		(exclude_from_sim no)
+		(at 347.218 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2160b2d2-8a64-4c93-aa80-05efe90f9007")
+	)
+	(text "Opamp - Funciona como un buffer, \nla salida de del DAC es de alta \nimpedancia entonces no puede tener \ncargas elevadas (Bocina - Aplificador).\nEl opamp deja el voltaje igual y le\nda capacidad para dar mas corriente."
+		(exclude_from_sim no)
+		(at 283.718 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "359ba271-d1ce-4f46-a192-c20693f504da")
 	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
@@ -8090,6 +8293,16 @@
 			)
 		)
 		(uuid "e71564f5-6391-44d9-8573-879a97b6f7dc")
+	)
+	(text "- Es el DAC\n"
+		(exclude_from_sim no)
+		(at 340.36 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3f97a03-2293-4af2-bc1e-eec6a82846f4")
 	)
 	(text_box "ADC + Mic + Entrada analogica\n"
 		(exclude_from_sim no)
@@ -9193,16 +9406,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 158.75) (xy 369.57 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14509e0f-6c17-46d7-b1b2-1f4cee05179d")
-	)
-	(wire
-		(pts
 			(xy 481.33 39.37) (xy 492.76 39.37)
 		)
 		(stroke
@@ -9840,6 +10043,16 @@
 			(type default)
 		)
 		(uuid "30805b55-8301-4f83-bfdc-ccc7214eaa00")
+	)
+	(wire
+		(pts
+			(xy 370.84 162.56) (xy 369.57 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d8764c-0d0a-417c-a35b-05eab8f55932")
 	)
 	(wire
 		(pts
@@ -11073,6 +11286,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 158.75) (xy 367.03 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6e766c-3ecc-43ee-851c-22ea04cfd43c")
+	)
+	(wire
+		(pts
 			(xy 492.76 39.37) (xy 504.19 39.37)
 		)
 		(stroke
@@ -11220,6 +11443,16 @@
 			(type default)
 		)
 		(uuid "8529a966-ccc2-4718-af77-24fd9693c03d")
+	)
+	(wire
+		(pts
+			(xy 369.57 160.02) (xy 369.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c39d10-d46d-40a5-8bd4-225f5d6a58bf")
 	)
 	(wire
 		(pts
@@ -12063,16 +12296,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 163.83) (xy 369.57 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aecb6a55-2e1a-4fa9-bfe9-e86a70c2eac0")
-	)
-	(wire
-		(pts
 			(xy 27.94 252.73) (xy 59.69 252.73)
 		)
 		(stroke
@@ -12240,6 +12463,16 @@
 			(type default)
 		)
 		(uuid "b716b964-06da-4c20-ae19-b4dd860c30e5")
+	)
+	(wire
+		(pts
+			(xy 370.84 160.02) (xy 369.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8209ba3-8b1b-4201-a73d-59c6c3f1484c")
 	)
 	(wire
 		(pts
@@ -12520,6 +12753,16 @@
 			(type default)
 		)
 		(uuid "c7ade0e5-0fbb-44fd-b304-8695d970407a")
+	)
+	(wire
+		(pts
+			(xy 369.57 162.56) (xy 369.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c838d846-b8a9-4fb4-9a39-088f73c0781f")
 	)
 	(wire
 		(pts
@@ -13503,6 +13746,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 163.83) (xy 367.03 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5a74f5-8c3d-4525-8d4c-bb6aa3f21725")
+	)
+	(wire
+		(pts
 			(xy 38.1 283.21) (xy 44.45 283.21)
 		)
 		(stroke
@@ -13560,16 +13813,6 @@
 			(justify right bottom)
 		)
 		(uuid "07f42b77-04b3-4df3-8dc9-d94993eff544")
-	)
-	(label "spk-"
-		(at 369.57 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a766f19-11c0-4952-b7fc-0406bb85010e")
 	)
 	(label "SCL_TFT"
 		(at 177.8 300.99 0)
@@ -14030,16 +14273,6 @@
 			(justify right bottom)
 		)
 		(uuid "c47ddd58-8424-4fd7-abb2-d79a6bc26f40")
-	)
-	(label "spk+"
-		(at 369.57 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c539d055-f847-4a65-b0a4-6a85256636c0")
 	)
 	(label "SDOUT"
 		(at 321.31 318.77 0)
@@ -27254,6 +27487,88 @@
 			(project "Mimosa"
 				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 375.92 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd8c46f-aaca-4ab8-8bfa-08a9b4d1dbe1")
+		(property "Reference" "J1"
+			(at 377.19 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 377.19 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Right"
+			(at 375.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 375.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f94db1db-a1fd-4a26-acae-4b99e4efccb6")
+		)
+		(pin "1"
+			(uuid "d8a82c4c-c691-4c19-85ce-7f69300a16f0")
+		)
+		(instances
+			(project "Mimosa"
+				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
+					(reference "J1")
 					(unit 1)
 				)
 			)

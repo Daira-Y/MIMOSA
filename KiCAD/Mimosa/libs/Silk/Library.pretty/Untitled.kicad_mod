@@ -1,0 +1,96 @@
+(footprint "Untitled"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99a2e9ae-fa96-401b-9708-01145d4ce35a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0a5010c-c1f3-445b-88fc-41d354751690")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f0723b-c3f3-4d80-9acf-cd0bbe07d8bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05037f6f-83d8-482e-ae59-ed6b18523109")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -17.5 -28.5)
+		(end 17.5 27.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c8c26878-59e7-459f-91e7-9f194e607f37")
+	)
+	(fp_rect
+		(start -10.4 -23.5)
+		(end 10.4 -26.5)
+		(stroke
+			(width 0.1)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "96023f10-a58d-47c9-96d1-6b582ed592f4")
+	)
+	(fp_text user "Display_TFT"
+		(at -4 -29 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03cfc901-6f20-4a5e-a1fe-c6acdd04ae4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

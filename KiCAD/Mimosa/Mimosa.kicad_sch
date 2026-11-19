@@ -13604,16 +13604,6 @@
 		)
 		(uuid "ff99141e-ccaf-4eaa-bd22-3fa0aa84b5aa")
 	)
-	(label "D-"
-		(at 241.3 364.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02be289f-7253-4221-ad29-eec75a502599")
-	)
 	(label "SDOUT"
 		(at 49.53 262.89 0)
 		(effects
@@ -13834,16 +13824,6 @@
 		)
 		(uuid "4eca33c6-55df-48e8-a268-8a396ef030e8")
 	)
-	(label "D+"
-		(at 241.3 369.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "504a54e4-14ac-4aad-8cda-dfb85dca2b04")
-	)
 	(label "DOWM_Bottom"
 		(at 504.19 39.37 180)
 		(effects
@@ -13923,6 +13903,16 @@
 			(justify right bottom)
 		)
 		(uuid "78309105-4334-47b4-9d46-a5cd2e15a12e")
+	)
+	(label "D-"
+		(at 241.3 369.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "869c7256-a1cf-4ea7-bdea-a987e76e80d1")
 	)
 	(label "RST"
 		(at 87.63 306.07 90)
@@ -14134,6 +14124,16 @@
 		)
 		(uuid "e1d6c092-20e9-46d1-98f0-42ae29615a2e")
 	)
+	(label "D+"
+		(at 241.3 364.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e27686cc-569e-47fb-b00f-9711e7eb2967")
+	)
 	(label "D-"
 		(at 156.21 367.03 0)
 		(effects
@@ -14277,7 +14277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
 			(at 81.28 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17330,6 +17330,117 @@
 			(project "Mimosa"
 				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SGM8968-1XN5G/TR")
+		(at 283.21 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "201d6a6b-234d-4504-82d9-8b7bc0b2004b")
+		(property "Reference" "U2"
+			(at 299.72 148.8912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM8968-1XN5G/TR"
+			(at 299.72 151.4312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C700130_SOT-23-5_L2_9-W1_6-P0_95-LS2_8-BR"
+			(at 283.21 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.924 154.813 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SGM8968-1XN5G/TR"
+			(at 283.21 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C700130"
+			(at 283.21 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SGMICRO(圣邦微)"
+			(at 283.21 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c9b54d81-dcd7-4f1d-a0af-561dbc555dcc")
+		)
+		(pin "2"
+			(uuid "e63470b6-a625-4757-a150-8fd22c605e7d")
+		)
+		(pin "5"
+			(uuid "16e94da0-b9f3-4960-8b71-6a8f60a70b24")
+		)
+		(pin "4"
+			(uuid "64fe77e3-1db8-4a23-8ab7-9cfc37be575f")
+		)
+		(pin "1"
+			(uuid "4a13680f-0472-474f-a5d0-bb879959ce15")
+		)
+		(instances
+			(project "Mimosa"
+				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21006,7 +21117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
 			(at 91.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -24250,7 +24361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit"
 			(at 161.29 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -27308,116 +27419,6 @@
 			(project "Mimosa"
 				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:SGM8968-1XN5G/TR")
-		(at 283.21 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abfda59a-431e-4256-bb13-019769f0fdcb")
-		(property "Reference" "U12"
-			(at 295.402 157.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SGM8968-1XN5G/TR"
-			(at 295.402 159.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C700130_SOT-23-5_L2_9-W1_6-P0_95-LS2_8-BR"
-			(at 283.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.924 154.813 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SGM8968-1XN5G/TR"
-			(at 283.21 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C700130"
-			(at 283.21 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SGMICRO(圣邦微)"
-			(at 283.21 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ebd0b605-0094-450d-bab4-727c499c88d8")
-		)
-		(pin "5"
-			(uuid "803605eb-f705-4cbd-a39c-276b7f954c4b")
-		)
-		(pin "3"
-			(uuid "a37af8a3-7184-41e8-9ae0-76924e4d70f1")
-		)
-		(pin "4"
-			(uuid "42ca031a-6b45-4479-a9cd-c6d299f9c1fa")
-		)
-		(pin "1"
-			(uuid "948a697f-ec77-421d-8cd1-2b16f0aa69ed")
-		)
-		(instances
-			(project "Mimosa"
-				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
-					(reference "U12")
 					(unit 1)
 				)
 			)

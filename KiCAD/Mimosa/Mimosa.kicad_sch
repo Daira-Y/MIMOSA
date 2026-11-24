@@ -28264,7 +28264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd8c46f-aaca-4ab8-8bfa-08a9b4d1dbe1")
-		(property "Reference" "J1"
+		(property "Reference" "Speaker1"
 			(at 356.87 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28286,7 +28286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 355.6 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -28328,7 +28328,7 @@
 		(instances
 			(project "Mimosa"
 				(path "/10431354-d2ae-41f8-96e7-b05ea5f37a8c"
-					(reference "J1")
+					(reference "Speaker1")
 					(unit 1)
 				)
 			)

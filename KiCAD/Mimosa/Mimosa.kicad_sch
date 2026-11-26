@@ -14132,6 +14132,16 @@
 		)
 		(uuid "ff99141e-ccaf-4eaa-bd22-3fa0aa84b5aa")
 	)
+	(label "Du-"
+		(at 54.61 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "027f7366-10b6-4a96-bcc0-49b31b7487e5")
+	)
 	(label "SDOUT"
 		(at 49.53 262.89 0)
 		(effects
@@ -14811,6 +14821,16 @@
 			(justify left bottom)
 		)
 		(uuid "e99e251d-2e3a-43a8-b83d-bb62387a2b05")
+	)
+	(label "Du+"
+		(at 54.61 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec1ad589-472f-478f-8f4c-396039a9fb2a")
 	)
 	(label "D+"
 		(at 38.1 283.21 0)
